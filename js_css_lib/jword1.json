@@ -1,0 +1,202 @@
+ {
+ "name": "No.我就是输错了.Eg.",  
+ "children": [
+ {"name": "発表",   "children": [
+   { "name": "公表される",     "value": "6"       },
+   { "name": "午後",     "value": "8"       },
+   { "name": "説明会",     "value": "10"       },
+   { "name": "公表する",     "value": "12"       },
+   { "name": "正午",     "value": "14"       },
+   { "name": "発表日",     "value": "16"       },
+   { "name": "概要",     "value": "18"       },
+   { "name": "開催",     "value": "20"       },
+   { "name": "決算を発表する",     "value": "22"       }   
+]},
+ {"name": "増加",   "children": [
+   { "name": "増加する",     "value": "28"       },
+   { "name": "減少する",     "value": "30"       },
+   { "name": "増え",     "value": "32"       },
+   { "name": "抑制",     "value": "34"       },
+   { "name": "増える",     "value": "36"       },
+   { "name": "減少傾向にある",     "value": "38"       },
+   { "name": "伸び悩み",     "value": "40"       },
+   { "name": "微減",     "value": "42"       }   
+]},
+ {"name": "投資",   "children": [
+   { "name": "戦略投資",     "value": "48"       },
+   { "name": "値する",     "value": "50"       },
+   { "name": "株主重視の姿勢",     "value": "52"       },
+   { "name": "企業の投資",     "value": "54"       },
+   { "name": "不動産投資",     "value": "56"       },
+   { "name": "税率の低下",     "value": "58"       },
+   { "name": "分科会",     "value": "60"       },
+   { "name": "投資評価",     "value": "62"       }   
+]},
+ {"name": "価格",   "children": [
+   { "name": "価格が上昇する",     "value": "68"       },
+   { "name": "調達価格",     "value": "70"       },
+   { "name": "販価",     "value": "72"       },
+   { "name": "契約価格",     "value": "74"       },
+   { "name": "出荷価格",     "value": "76"       },
+   { "name": "価格の上昇",     "value": "78"       },
+   { "name": "市況",     "value": "80"       },
+   { "name": "価格の低下",     "value": "82"       },
+   { "name": "価格の下落",     "value": "84"       }   
+]},
+ {"name": "株価",   "children": [
+   { "name": "株価下落",     "value": "90"       },
+   { "name": "現在の株価",     "value": "92"       },
+   { "name": "直近の株価",     "value": "94"       },
+   { "name": "株式市場",     "value": "96"       },
+   { "name": "株価上昇",     "value": "98"       },
+   { "name": "銀行株",     "value": "100"       },
+   { "name": "株価の下落",     "value": "102"       },
+   { "name": "株価の上昇",     "value": "104"       },
+   { "name": "商品市況",     "value": "106"       }   
+]},
+ {"name": "程度",   "children": [
+   { "name": "近く",     "value": "112"       },
+   { "name": "仮定",     "value": "114"       },
+   { "name": "達する",     "value": "116"       },
+   { "name": "満た",     "value": "118"       },
+   { "name": "換算",     "value": "120"       },
+   { "name": "水準",     "value": "122"       }   
+]},
+ {"name": "変更",   "children": [
+   { "name": "見直し",     "value": "128"       },
+   { "name": "不変",     "value": "130"       },
+   { "name": "据え置く",     "value": "132"       },
+   { "name": "据え置い",     "value": "134"       },
+   { "name": "修正",     "value": "136"       },
+   { "name": "引き下げ",     "value": "138"       },
+   { "name": "改め",     "value": "140"       },
+   { "name": "引き上げ",     "value": "142"       },
+   { "name": "微調整",     "value": "144"       }   
+]},
+ {"name": "需要",   "children": [
+   { "name": "引き合い",     "value": "150"       },
+   { "name": "最終需要",     "value": "152"       },
+   { "name": "需要の伸び",     "value": "154"       },
+   { "name": "需要増",     "value": "156"       },
+   { "name": "市場の需要",     "value": "158"       },
+   { "name": "旺盛な需要",     "value": "160"       },
+   { "name": "製品に対する需要",     "value": "162"       },
+   { "name": "需要の増加",     "value": "164"       },
+   { "name": "引合い",     "value": "166"       }   
+]},
+ {"name": "算出",   "children": [
+   { "name": "計算",     "value": "172"       },
+   { "name": "設定",     "value": "174"       },
+   { "name": "算出時",     "value": "176"       },
+   { "name": "最も低いレベル",     "value": "178"       },
+   { "name": "東証1部",     "value": "180"       },
+   { "name": "割引い",     "value": "182"       },
+   { "name": "算出基準",     "value": "184"       }   
+]},
+ {"name": "効果",   "children": [
+   { "name": "構造改革の成果",     "value": "190"       },
+   { "name": "寄与",     "value": "192"       },
+   { "name": "円安メリット",     "value": "194"       },
+   { "name": "効果を相殺する",     "value": "196"       },
+   { "name": "相乗効果",     "value": "198"       },
+   { "name": "数量効果",     "value": "200"       },
+   { "name": "限界利益",     "value": "202"       },
+   { "name": "販促費用",     "value": "204"       },
+   { "name": "一時費用",     "value": "206"       }   
+]},
+ {"name": "水準",   "children": [
+   { "name": "株価水準",     "value": "209"       },
+   { "name": "高い水準",     "value": "211"       },
+   { "name": "低水準",     "value": "213"       },
+   { "name": "程度",     "value": "214"       },
+   { "name": "株価キャッシュフロー倍率",     "value": "216"       },
+   { "name": "価格水準",     "value": "218"       },
+   { "name": "果たせ",     "value": "220"       },
+   { "name": "対比",     "value": "222"       }   
+]},
+ {"name": "期待",   "children": [
+   { "name": "見込めよ",     "value": "228"       },
+   { "name": "待た",     "value": "230"       },
+   { "name": "見込める",     "value": "232"       },
+   { "name": "期待が高まる",     "value": "234"       },
+   { "name": "待ち",     "value": "236"       },
+   { "name": "期待できない",     "value": "238"       },
+   { "name": "見込まれる",     "value": "240"       },
+   { "name": "成長期待",     "value": "242"       },
+   { "name": "期待値",     "value": "244"       }   
+]},
+ {"name": "修正",   "children": [
+   { "name": "修正する",     "value": "248"       },
+   { "name": "下方修正",     "value": "250"       },
+   { "name": "据え置き",     "value": "252"       },
+   { "name": "据え置い",     "value": "253"       },
+   { "name": "微調整",     "value": "254"       },
+   { "name": "変更",     "value": "255"       },
+   { "name": "見直し",     "value": "256"       },
+   { "name": "下方修正する",     "value": "258"       }   
+]},
+ {"name": "成長",   "children": [
+   { "name": "成長トレンド",     "value": "264"       },
+   { "name": "成長力",     "value": "266"       },
+   { "name": "成長を続ける",     "value": "268"       },
+   { "name": "高い成長",     "value": "270"       },
+   { "name": "成長性",     "value": "272"       },
+   { "name": "成長期待",     "value": "273"       },
+   { "name": "成長軌道",     "value": "275"       },
+   { "name": "成長見通し",     "value": "277"       },
+   { "name": "事業の成長",     "value": "279"       }   
+]},
+ {"name": "前提",   "children": [
+   { "name": "見通し",     "value": "285"       },
+   { "name": "同額",     "value": "287"       },
+   { "name": "実勢",     "value": "289"       },
+   { "name": "為替レート",     "value": "291"       },
+   { "name": "換算レート",     "value": "293"       },
+   { "name": "平均レート",     "value": "295"       },
+   { "name": "従来",     "value": "297"       },
+   { "name": "仮定",     "value": "298"       }   
+]},
+ {"name": "上昇",   "children": [
+   { "name": "上昇傾向",     "value": "304"       },
+   { "name": "低下",     "value": "306"       },
+   { "name": "上昇傾向にある",     "value": "308"       },
+   { "name": "高騰",     "value": "310"       },
+   { "name": "上昇する",     "value": "312"       },
+   { "name": "上昇基調",     "value": "314"       },
+   { "name": "下落した",     "value": "316"       },
+   { "name": "反発",     "value": "318"       },
+   { "name": "下落基調",     "value": "320"       }   
+]},
+ {"name": "相対",   "children": [
+   { "name": "相対的な",     "value": "326"       },
+   { "name": "全般",     "value": "328"       },
+   { "name": "好意",     "value": "330"       },
+   { "name": "基本",     "value": "332"       },
+   { "name": "限定",     "value": "334"       },
+   { "name": "懐疑",     "value": "336"       },
+   { "name": "中長期",     "value": "338"       },
+   { "name": "機動",     "value": "340"       },
+   { "name": "遅効",     "value": "342"       }   
+]},
+ {"name": "通期",   "children": [
+   { "name": "上期",     "value": "348"       },
+   { "name": "会社",     "value": "350"       },
+   { "name": "営業利益",     "value": "352"       },
+   { "name": "通期の売上高",     "value": "354"       },
+   { "name": "計画",     "value": "356"       },
+   { "name": "経常利益",     "value": "358"       },
+   { "name": "同額",     "value": "359"       },
+   { "name": "連結営業利益",     "value": "361"       }   
+]},
+ {"name": "回復",   "children": [
+   { "name": "回復傾向",     "value": "367"       },
+   { "name": "本格的な回復",     "value": "369"       },
+   { "name": "底入れ",     "value": "371"       },
+   { "name": "復調",     "value": "373"       },
+   { "name": "改善",     "value": "375"       },
+   { "name": "回復の兆し",     "value": "377"       },
+   { "name": "需要の回復",     "value": "379"       },
+   { "name": "緩やかな回復",     "value": "381"       },
+   { "name": "収益回復",     "value": "383"       }
+ ]  }
+] }

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>ECharts</title>
+    
+    <script src="./js/echarts.min.js"></script>
+    <script src="./js/jquery-1.9.0.min.js"></script>
+
+    
+    
+</head>
+<body>
+
+<style>
+    html, body, #main {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+</style>
+
+
+data1=[
+
+]
+
+
+<div id="main"></div>
+
+<script type="text/javascript">
+
+
+    (function ($) {
+        var myChart = echarts.init(document.getElementById('main'));
+       
+        window.onresize = function () {
+            myChart.resize();
+        };
+
+        $.getJSON('jword.json').done(function (data) { 
+
+
+
+        myChart.on("dblclick", clickFun);
+
+
+        myChart.setOption(option = {
+        tooltip: {
+            trigger: 'item',
+            triggerOn: 'mousemove'
+        },
+
+
+        series: [
+            {
+                type: 'tree',
+
+                data: [data],
+
+                top: '8%',
+                bottom: '8%',
+
+                layout: 'radial',
+
+                symbol: 'emptyCircle',
+
+                symbolSize: 9,
+
+
+
+                        label: {
+                               normal: {
+
+                                    position: 'bottom',
+                                    verticalAlign: 'middle',
+                                    align: 'center',
+                                    textStyle:{
+                                                 fontSize:9,
+                                                 color:'#666',
+                                            },
+                                    formatter: function(params) {
+                                        　
+                                        if (params.data.selected) {
+                                            
+                                            let str = 'current:'
+                                          
+                                            return `{box|${str}${params.data.name}}`
+                                        } else {
+
+                                          
+                                            return `${params.data.name}`
+                                        }
+
+                                    },
+                                    rich: {
+                                        box: {
+                                            color: '#3FA7DC',
+                                        }
+                                    }
+                                }
+
+
+
+                        },
+
+
+
+                initialTreeDepth: 4,
+
+                animationDurationUpdate: 750
+
+            }
+        ]
+    });
+    
+
+
+            setTimeout(function () {
+               
+                newData.children.splice(0, 0);  //newData.children.splice(0, 1) offical give such code example ,but lack a sub branch
+                myChart.setOption({
+                    series: [{
+                        type: 'tree',
+                       
+                        data: [newData]
+                    }]
+                }, false);
+            }, 1000);
+
+        });
+
+
+    }(jQuery));
+
+
+
+
+//关键点！
+function clickFun(param) 
+{
+    if (typeof param.seriesIndex == 'undefined')
+     {
+
+        return;
+    }
+    if (param.type == 'dblclick')
+     {
+        alert(param.name);
+                //call back to 
+        
+    //retrun ser
+
+
+
+      
+        $.ajax({
+            url: "http://127.0.0.1:8000/ajax_dict",
+            type: "post",
+            datatype:"json",
+            data1: {'pword': param.name},
+            data:$(data1).serialize(),
+            success: function(response){
+                console.log(response);
+            },
+            error: function(response) {
+                console.log(response);
+            }
+        });
+          
+
+    ///$.post('http://127.0.0.1:8000/ajax_dict?pword='+param.name,'pword:haode',callback);
+
+    /*
+    $.ajax(
+            {
+                type:"POST",//提交请求的方式
+                cache:true,//是否有缓存
+                url:"http://127.0.0.1:8000/ajax_dict",//访问servlet的路径
+                dataType:"json",//没有这个，将把后台放会的json解析成字符串
+                data:$(param.name).serialize(),//把内容序列化
+
+                async:true,//是否异步
+                error:function(request) 
+                {//请求出错
+                    alert("error happen");
+                },
+                success:function(data) 
+                {//获得返回值
+                    alert(data["mytext"]);
+                }
+            })
+*/
+
+
+/*
+
+
+
+            
+
+              function getDetail(){
+                  $.ajax({
+                      type:'POST',
+                      url:'dataBack.json',
+                     data:{},
+                     success:function(data){
+
+                     },
+                      error:function(){
+                          alert("error!!!");
+                      }
+                     dataType:dataType
+                  });
+              }
+
+
+*/
+
+
+    myChart.setOption(options); 
+
+
+
+    }
+}
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
